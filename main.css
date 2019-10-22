@@ -1,0 +1,138 @@
+body {
+    background-color: #fffffff;
+    max-width: 1500px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+}
+
+h1 {
+    color: #d156ac;
+    font-family: 'MedievalSharp', cursive;
+    font-size: 100px;
+    text-align: center;
+}
+
+h2 {
+    color: #cf3227;
+    font-size: 40px;
+}
+p {
+    font-family: 'Averia Serif Libre', cursive;
+    font-size: 20px;
+}
+
+li {
+    font-family: 'Averia Serif Libre', cursive;
+    font-size: 20px;
+}
+
+ol {
+    font-size: 15px;
+    max-width: 80%;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.big {
+    font-size: 30px;
+}
+
+.small {
+    font-size: 15px;
+}
+
+.centertxt {
+    text-align: center;
+}
+.importantcenter {
+    color: #cf3227;
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 25px;
+    text-align:center;
+}
+
+.importantleft {
+    color: #cf3227;
+    font-family: 'Alfa Slab One', cursive;
+    font-size: 25px;
+    text-align:left;
+}
+.centerimg {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.medieval {
+    font-family: 'MedievalSharp', cursive;
+}
+.child {
+    color :#4d9bfa;
+    font-family: 'Bubblegum Sans', cursive;
+}
+
+a:link {
+    color:#f291e4
+}
+
+a:visited {
+    color:#473344 
+}
+
+a:hover {
+    color:#3e2ef0
+}
+
+.plague {
+    font-family: 'Eater', cursive;
+    color: #268f15
+}
+
+@media(max-width: 600px) {
+    img {
+        max-width: 70%;
+    }
+    
+    h1 {
+        font-size: 72px
+    }
+
+    h2 {
+        font-size: 25px;
+    }
+
+    li {
+        font-size: 12px;
+    }
+
+    ol {
+        font-size: 10px;
+    }
+
+    p {
+        font-size: 12px;
+    }
+
+    .big {
+        font-size: 20px;
+    }
+
+    .small {
+        font-size: 10px;
+    }
+
+    .importantcenter {
+        font-size: 15px;
+    }
+
+    .importantleft {
+        font-size: 15px;
+    }
+
+
+
+}
